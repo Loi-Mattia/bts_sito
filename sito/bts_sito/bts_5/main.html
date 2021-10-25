@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="it">
+   <head>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+     <div class="sticky">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+           <a class="navbar-brand" href="#"><img class="vIcon" src="ValorantIcon.png" alt="Valorant Skins" ></a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+                 <a class="nav-link " href="#knife">Knife</a>
+                 <a class="nav-link " href="#vandal">Vandal</a>
+              </div>
+           </div>
+        </div>
+     </div>
+      <main>
+ 
+         </nav>
+         
+         <div class="anchor-margin"  id="knife"></div>
+
+         <div class="weapon-container">
+            <div class="row">
+               <h1>Knives</h1>
+               <div class="col-sm-4">
+                  <div class="btn-group w-100 em-5">
+                     <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                     Skins
+                     </button>
+                     <ul class="w1 dropdown-menu">
+                        <li><a class="dropdown-item" price="2500" image="Screenshot-107.png" story="Il ruin, un coltello forgiato nel passato che riesce trasformare i nemici feriti in oro." damage="100"href="javascript:void(0);" >Ruin</a></li>
+                        <li><a class="dropdown-item" price="3000" image="Screenshot-59.png" story="Il Karambit, un coltellino utile per le uccisioni furtive." damage="75"href="javascript:void(0);" >Karambit</a></li>
+                        <li><a class="dropdown-item" price="2000" image="Screenshot-64.png" story="Il prism, un accetta ottima per le uccisioni in mischia." damage="100"href="javascript:void(0);" >Prism</a></li>
+                        <li><a class="dropdown-item" price="1500" image="Screenshot-65.png" story="L'outpost, un coltello con del veleno all'interno per uccidere i nemici lentamente." damage="35"href="javascript:void(0);">Outpost</a></li>
+                        <li><a class="dropdown-item" price="2000" image="Screenshot-66.png" story="L'Electroblade, un coltellino elettrico ottimo per stordire il nemico." damage="40" href="javascript:void(0);">Electroblade</a></li>
+                        <li><a class="dropdown-item" price="2500" image="Screenshot-68.png" story="Il song steel, una spada ottima per le uccisioni a cavallo." damage="110" href="javascript:void(0);">Song Steel</a></li>
+                        <li><a class="dropdown-item" price="5000" image="Screenshot-73.png" story="L'origin, un coltello a mezzaluna che permette a chi lo usa, di utilizzare la magia impressa in esso." damage="150"href="javascript:void(0);">Origin</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-sm-4">
+                  <button type="button" class="btn btn-primary w-100 em-5">
+                  Price <span id="w1p" class="badge bg-secondary">VP</span>
+                  </button>
+               </div>
+               <div class="col-sm-4">
+                  <button type="button" class="btn btn-primary w-100 em-5">
+                  Damage <span id="w1d" class="badge bg-secondary">0</span>
+                  </button>
+               </div>
+            </div>
+            <img id="w1i" class="weapon mt-4" src="empty.png" alt="">
+            <div id="w1t" class="alert alert-dark mt-4" role="alert">
+            </div>
+         </div>
+
+         <div class="anchor-margin" id="vandal"></div>
+
+         <div class="weapon-container">
+          <div class="row">
+            <h1>Vandals</h1>
+             <div class="col-sm-4">
+                <div class="btn-group w-100 em-5">
+                   <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                   Skins
+                   </button>
+                   <ul class="w2 dropdown-menu">
+                      <li><a class="dropdown-item" price="10000" image="vandal_1.png" story="L'origin, un fucile che ha impressa in esso magia e riesce a teletrasportare chi lo usa in una posizione di vantaggio verso il nemico." damage="200" href="javascript:void(0);" >Origin</a></li>
+                      <li><a class="dropdown-item" price="5000" image="vandal_2.png" story="Il wasteland, un fucile creato da rifiuti di una navicella spaziale alla prima uccisione emana un suono stordente contro i nemici." damage="80"href="javascript:void(0);" >Wasteland</a></li>
+                      <li><a class="dropdown-item" price="6000" image="vandal_3.png" story="Il forsaken, un fucile che scatena un orda di corvi alla prima uccisione." damage="120"href="javascript:void(0);" >Forsaken</a></li>
+                      <li><a class="dropdown-item" price="4000" image="vandal_4.png" story="Il prime, un fucile ad alta potenza di fuoco che evoca un cane da caccia alla prima uccisione." damage="75"href="javascript:void(0);" >Prime</a></li>
+                      <li><a class="dropdown-item" price="15000" image="vandal_5.png" story="Il reaver, un fucile forgiato nell'ombra dalle anime dannate scatena l'inferno alla prima uccisione." damage="300"href="javascript:void(0);" >Reaver</a></li>
+                      <li><a class="dropdown-item" price="20000" image="vandal_6.png" story="L'elderflame, un fucile con il drago dalle mille voci incastrato in esso, alla prima uccisione evoca la sua anima infuocata." damage="250"href="javascript:void(0);" >Elderflame</a></li>
+                      <li><a class="dropdown-item" price="5500" image="vandal_7.png" story="Il glitchpop, in passato un fucile giocattolo ma ora trasformato in un arma per uccisioni di massa." damage="100"href="javascript:void(0);">Glitchpop</a></li>
+                   </ul>
+                </div>
+             </div>
+             <div class="col-sm-4">
+                <button type="button" class="btn btn-primary w-100 em-5">
+                Price <span id="w2p" class="badge bg-secondary">VP</span>
+                </button>
+             </div>
+             <div class="col-sm-4">
+                <button type="button" class="btn btn-primary w-100 em-5">
+                Damage <span id="w2d" class="badge bg-secondary">0</span>
+                </button>
+             </div>
+          </div>
+          <img id="w2i" class="weapon mt-4" src="empty.png" alt="">
+          <div id="w2t" class="alert alert-dark mt-4s" role="alert">
+          </div>
+       </div>
+      </main>
+      <script src="script.js"></script>
+   </body>
+</html>
